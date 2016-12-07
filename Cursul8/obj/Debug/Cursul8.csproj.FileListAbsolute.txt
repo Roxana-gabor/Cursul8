@@ -77,6 +77,5 @@ c:\users\roxana\documents\visual studio 2015\Projects\Cursul8\Cursul8\bin\Micros
 c:\users\roxana\documents\visual studio 2015\Projects\Cursul8\Cursul8\bin\Microsoft.Owin.Security.Google.xml
 c:\users\roxana\documents\visual studio 2015\Projects\Cursul8\Cursul8\bin\Microsoft.Owin.Security.Twitter.xml
 c:\users\roxana\documents\visual studio 2015\Projects\Cursul8\Cursul8\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-c:\users\roxana\documents\visual studio 2015\Projects\Cursul8\Cursul8\obj\Debug\Cursul8.csprojResolveAssemblyReference.cache
 c:\users\roxana\documents\visual studio 2015\Projects\Cursul8\Cursul8\obj\Debug\Cursul8.dll
 c:\users\roxana\documents\visual studio 2015\Projects\Cursul8\Cursul8\obj\Debug\Cursul8.pdb

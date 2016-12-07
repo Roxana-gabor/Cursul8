@@ -1,0 +1,8 @@
+﻿@model Cursul8.Models.ProjectEvaluation
+
+<div class="evaluation">
+    <h4>@Model.name</h4>
+    <span>@Model.rating</span>
+    <span>@Html.ActionLink("Edit", "Edit", new { id = Model.id })</span>
+    <p>@Model.city, @Model.country</p>
+</div>

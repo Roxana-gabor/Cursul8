@@ -11,9 +11,9 @@ namespace Cursul8.Controllers
     {
         public static List<ProjectEvaluation> ListOfProjects = new List<ProjectEvaluation>
         {
-           new ProjectEvaluation() {name="MVC", city="Cluj", country="Romania", rating=9 },
-           new ProjectEvaluation() { name = "MVC2", city = "<script> alert('xss');</script>", country = "Romania", rating = 5 },
-           new ProjectEvaluation() {name="MVC3", city="Suceava", country="Romania", rating=10 }
+           new ProjectEvaluation() {id=1 , name="MVC", city="Cluj", country="Romania", rating=9 },
+           new ProjectEvaluation() {id=2, name = "MVC2", city = "<script> alert('xss');</script>", country = "Romania", rating = 5 },
+           new ProjectEvaluation() {id=3, name="MVC3", city="Suceava", country="Romania", rating=10 }
           };
         
 

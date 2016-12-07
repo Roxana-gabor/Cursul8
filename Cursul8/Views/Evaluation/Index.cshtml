@@ -73,6 +73,7 @@
             <div class="evaluation">
                 <h4>@item.name</h4>
                 <span>@item.rating</span>
+                <span>@Html.ActionLink("Edit", "Edit", new { id = item.id})</span>
                 <p>@item.city, @item.country</p>
             </div>
         }

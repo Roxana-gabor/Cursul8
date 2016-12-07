@@ -62,16 +62,22 @@ namespace Cursul8.Controllers
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
-            try
-            {
-                // TODO: Add update logic here
+        //    try
+        //    {
+        //        // TODO: Add update logic here
 
-                return RedirectToAction("Index");
-            }
-            catch
-            {
-                return View();
-            }
+        //        return RedirectToAction("Index");
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        var evaluation = ListOfProjects.Single(e => e.id == id);
+        if(TryUpdateModel(evaluation))
+        {
+            return RedirectToAction("Index");
+        }
+        return View(evaluation);
         }
 
         // GET: Evaluation/Delete/5
